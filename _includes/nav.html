@@ -1,0 +1,49 @@
+
+<!-- Nav Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top"  role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-toggle-wrapper visible-xs">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".js-navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <a href="{{ "/" | prepend:site.baseurl }}" class="navbar-brand">{{ site.title }}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse js-navbar-collapse">
+            <ul class="navbar-nav nav">
+
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden">
+                <a class="page-scroll" href="#page-top"></a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#overview">Overview</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#grades">Grades</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#instructor">Instructor</a>
+              </li>
+              <li>
+                <a class="page-scroll" href="#resources">Resources</a>
+              </li>
+
+                <!-- End Nav items -->
+            </ul>
+            <ul class="navbar-nav nav navbar-right">
+              <li class="hidden-xs">
+                  <div title="Hennepin Technical College">
+                  <a id="htc-button" class="btn btn-primary" href="https://www.hennepintech.edu/">
+                  </a></div>
+              </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Nav Bar -->

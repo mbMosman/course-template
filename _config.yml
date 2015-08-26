@@ -32,8 +32,17 @@ permalink: :title
 # - red
 theme_color: orange
 
+collections:
+  semesters:
+    output: true
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "semesters"
+    values:
+      layout: "semester"
   -
     scope:
       path: ""
